@@ -10,7 +10,11 @@
 </head>
 <body>
     <div class="container">
-        <table class='table table-dark mb-4 mt-4'>
+        <div class="text-center mb-3 mt-3">
+            <h2>My favorite Songs</h2>
+            <hr>
+        </div>
+        <table class='table table-striped table-dark mb-4 mt-4'>
             <thead>
                 <tr>
                     <th scope='col'>ID</th>
@@ -27,8 +31,6 @@
             <input id="loadBtn" type="submit" value="Load Songs" name='Submit' class="btn btn-primary">
         </form>
     </div>
-    
-
     <script>
         let load_btn = document.getElementById('loadBtn');
         //console.log(load_btn);
@@ -72,8 +74,5 @@
             }
         }
     </script>
-    
-
-    
 </body>
 </html>
