@@ -1,0 +1,144 @@
+<!--  title, artist, country, genre, year. -->
+<?xml version="1.0"?>
+<songs>
+    <song>
+        <title>Black in Black</title>
+        <artist>AC/DC</artist>
+        <country>Australia</country>
+        <genre>Rock&amp;Roll</genre>
+        <year>1980</year>
+    </song>
+    <song>
+        <title>Chop Suey!</title>
+        <artist>System of the down</artist>
+        <country>California USA</country>
+        <genre>Alternative Metal</genre>
+        <year>2001</year>
+    </song>
+    <song>
+        <title>Chaos B.C.</title>
+        <artist>Sepultura</artist>
+        <country>Brasilien</country>
+        <genre>Trash Metal, Death Metal</genre>
+        <year>1993</year>
+    </song>
+    <song>
+        <title>Hell's Bell's</title>
+        <artist>AC/DC</artist>
+        <country>Australia</country>
+        <genre>Rock&amp;Roll</genre>
+        <year>1980</year>
+    </song>
+    <song>
+        <title>Toxicity</title>
+        <artist>System of the down</artist>
+        <country>California USA</country>
+        <genre>Alternative Metal</genre>
+        <year>1980</year>
+    </song>
+    <song>
+        <title>Territory</title>
+        <artist>Sepultura</artist>
+        <country>Brasilia</country>
+        <genre>Trash Metal, Death Metal</genre>
+        <year>1993</year>
+    </song>
+    <song>
+        <title>Biotech Is Godzilla</title>
+        <artist>Sepultura</artist>
+        <country>Brasilia</country>
+        <genre>Trash Metal, Death Metal</genre>
+        <year>1993</year>
+    </song>
+    <song>
+        <title>Refuse/Resist</title>
+        <artist>Sepultura</artist>
+        <country>Brasilia</country>
+        <genre>Trash Metal, Death Metal</genre>
+        <year>1993</year>
+    </song>
+    <song>
+        <title>Aces High</title>
+        <artist>Iron Maiden</artist>
+        <country>Great Britain</country>
+        <genre>Havey Metal</genre>
+        <year>1982</year>
+    </song>
+    <song>
+        <title>Hallowed Be Thy Name</title>
+        <artist>Iron Maiden</artist>
+        <country>Great Britain</country>
+        <genre>Havey Metal</genre>
+        <year>1982</year>
+    </song>
+    <song>
+        <title>In Bloom</title>
+        <artist>Nirvana</artist>
+        <country>Washington, USA</country>
+        <genre>Crunge</genre>
+        <year>1991</year>
+    </song>
+    <song>
+        <title>Polly</title>
+        <artist>Nirvana</artist>
+        <country>Washington, USA</country>
+        <genre>Crunge</genre>
+        <year>1991</year>
+    </song>
+    <song>
+        <title>Something in the Way</title>
+        <artist>Nirvana</artist>
+        <country>Washington, USA</country>
+        <genre>Crunge</genre>
+        <year>1991</year>
+    </song>
+    <song>
+        <title>Smells Like Teen Spirit</title>
+        <artist>Nirvana</artist>
+        <country>Washington, USA</country>
+        <genre>Crunge</genre>
+        <year>1991</year>
+    </song>
+    <song>
+        <title>Master of Puppets</title>
+        <artist>Metallica</artist>
+        <country>USA</country>
+        <genre>Heavy Metal, Thrash Metal</genre>
+        <year>1986</year>
+    </song>
+    <song>
+        <title>Battery</title>
+        <artist>Metallica</artist>
+        <country>USA</country>
+        <genre>Heavy Metal, Thrash Metal</genre>
+        <year>1986</year>
+    </song>
+    <song>
+        <title>For Whom the Bell Tolls</title>
+        <artist>Metalica</artist>
+        <country>USA</country>
+        <genre>Heavy Metal, Thrash Metal</genre>
+        <year>1984</year>
+    </song>
+    <song>
+        <title>Ride the Lightning</title>
+        <artist>Metallica</artist>
+        <country>USA</country>
+        <genre>Heavy Metal, Thrash Metal</genre>
+        <year>1984</year>
+    </song>
+    <song>
+        <title>The Call of Ktulu</title>
+        <artist>Metallica</artist>
+        <country>USA</country>
+        <genre>Heavy Metal, Thrash Metal</genre>
+        <year>1984</year>
+    </song>
+    <song>
+        <title>Killing in the Name</title>
+        <artist>Rage Against the Machine</artist>
+        <country>Los Angeles, USA</country>
+        <genre>	Rap Metal, Rap Rock, Funk Metal, Alternative Metal, Crossover</genre>
+        <year>1992</year>
+    </song>
+</songs>
