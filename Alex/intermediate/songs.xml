@@ -1,11 +1,10 @@
-<!--  title, artist, country, genre, year. -->
 <?xml version="1.0"?>
 <songs>
     <song>
         <title>Black in Black</title>
         <artist>AC/DC</artist>
         <country>Australia</country>
-        <genre>Rock&amp;Roll</genre>
+        <genre>RockRoll</genre>
         <year>1980</year>
     </song>
     <song>
@@ -26,7 +25,7 @@
         <title>Hell's Bell's</title>
         <artist>AC/DC</artist>
         <country>Australia</country>
-        <genre>Rock&amp;Roll</genre>
+        <genre>RockRoll</genre>
         <year>1980</year>
     </song>
     <song>

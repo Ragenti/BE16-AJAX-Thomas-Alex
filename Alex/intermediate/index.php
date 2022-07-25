@@ -9,11 +9,11 @@
     <title>My Favorite Songs</title>
 </head>
 <body>
-    <div id="content" class="container">
-        
+    <div class="container">
         <table class='table table-dark mb-4 mt-4'>
             <thead>
                 <tr>
+                    <th scope='col'>ID</th>
                     <th scope='col'>Title</th>
                     <th scope='col'>Artist</th>
                     <th scope='col'>Country</th>
@@ -27,52 +27,53 @@
             <input id="loadBtn" type="submit" value="Load Songs" name='Submit' class="btn btn-primary">
         </form>
     </div>
+    
 
     <script>
         let load_btn = document.getElementById('loadBtn');
-        console.log(load_btn);
+        //console.log(load_btn);
         load_btn.addEventListener("click", loadSongs);
-        console.log(load_btn);
+        //console.log(load_btn);
         function loadSongs(e)
         {
             e.preventDefault();
             const ajax_req = new XMLHttpRequest();
-            console.log(ajax_req.responseXML);
+            console.log(ajax_req);
             ajax_req.open("GET", "songs.xml");
-            ajax_req.onload = function()
+            ajax_req.onload = function ()
             {
                 if(ajax_req.status == 200)
                 {
-                    console.log(ajax_req.responseXML);
+                    //console.log(ajax_req.responseXML);
                     convertXMLtoHTML(ajax_req.responseXML);
                 }
             };
             ajax_req.send();
         }
         
-        
         function convertXMLtoHTML(xml)
         {
-            let songs = document.getElementsByTagName("song");
+            console.log(xml);
+            let songs = xml.getElementsByTagName('song');
             let content = document.getElementById("my_songs");
-
-            for (i = 0; i < songs.length; i++)
+            
+            for (let i = 0; i < songs.length; i++)
             {
-                content.innerHtml += `
+                content.innerHTML += `
                 <tr>
-                    <th scope='row'>${i+1}</th>
-                    <td>${songs[i].getElementsByTagName('title')[0].childNodes[0].nodeValue}</td>
-                    <td>${songs[i].getElementsByTagName('artist')[0].childNodes[0].nodeValue}</td>
-                    <td>${songs[i].getElementsByTagName('country')[0].childNodes[0].nodeValue}</td>
-                    <td>${songs[i].getElementsByTagName('genre')[0].childNodes[0].nodeValue}</td>
-                    <td>${songs[i].getElementsByTagName('year')[0].childNodes[0].nodeValue}</td>
-                </tr>`
+                    <th scope="row">${i+1}</th>
+                    <td>${songs[i].getElementsByTagName("title")[0].childNodes[0].nodeValue}</td>
+                    <td>${songs[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue}</td>
+                    <td>${songs[i].getElementsByTagName("country")[0].childNodes[0].nodeValue}</td>
+                    <td>${songs[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue}</td>
+                    <td>${songs[i].getElementsByTagName("year")[0].childNodes[0].nodeValue}</td>
+                </tr>
+                `;
             }
         }
     </script>
     
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
 </body>
 </html>
